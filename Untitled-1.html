@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+
+<style>
+div {
+	height: 300px;
+	width: 300px;
+	background-color: #36F;
+	position: absolute;
+	
+	transform: rotateY(45deg);
+	animation-name:anim;
+	animation-duration:3s;
+	animation-iteration-count:infinite;
+	animation-timing-function:ease-out;	
+
+}
+@keyframes anim {
+	0%{rotateY(45deg);}
+	50%{rotateY(0deg);}
+	100%{rotateY(45deg);}
+
+}
+body{
+	perspective:800px;
+}
+</style>
+
+
+</head>
+
+<body>
+<div> war </div>
+</body>
+</html>
